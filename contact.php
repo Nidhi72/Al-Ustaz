@@ -24,7 +24,7 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,600;1,700&display=swap"
     rel="stylesheet">
 
-  <title>Contact Us - Western Star General Contracting Establishment</title>
+  <title>Contact Us - Al Ustaz General Contracting Establishment</title>
 </head>
 
 <body>
@@ -125,7 +125,7 @@
       <div class="header-content">
         <h1>Contact Us</h1>
         <!-- <p>
-            At Western Star, we aspire to be the foremost name in the Kingdom's
+            At Al Ustaz, we aspire to be the foremost name in the Kingdom's
             Scaffolding & Formworks industry. Our strategic global partnerships
             have empowered us to meet the demands of large-scale and mega projects
             within the Kingdom. In particular, our collaboration with <span>VARIANT
@@ -148,7 +148,7 @@
       <div class="container">
         <h2>Scaffolding & Formworks Division</h2>
         <p>
-          At Western Star, we aspire to be the foremost name in the Kingdom's
+          At Al Ustaz, we aspire to be the foremost name in the Kingdom's
           Scaffolding & Formworks industry. Our strategic global partnerships
           have empowered us to meet the demands of large-scale and mega projects
           within the Kingdom. In particular, our collaboration with VARIANT
@@ -271,7 +271,7 @@
   <div class="container">
     <div class="countries">
       <h2>
-        At Western Star, we don't just build structures; we build
+        At Al Ustaz, we don't just build structures; we build
         relationships, trust, and a sustainable future.
       </h2>
     </div>
@@ -386,7 +386,7 @@
 
     <div class="foot-second">
       <h4>
-        <span>Western Star General Contracting Establishment</span>.© 2023.
+        <span>Al Ustaz General Contracting Establishment</span>.© 2023.
         All Rights Reserved
       </h4>
     </div>
