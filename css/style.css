@@ -129,7 +129,7 @@ body {
 }
 .top-one ul li i {
   font-size: 14px;
-  color: #32358c;
+  color: #000;
   margin-right: 7px;
 }
 .top-one {
@@ -148,7 +148,7 @@ body {
   margin-left: 30px;
 }
 .top-two h6 {
-  color: #32358c;
+  color: #000;
   margin-bottom: 0px;
   margin-right: 20px;
   font-style: italic;
@@ -248,7 +248,7 @@ body {
   margin-left: 8px;
 }
 .caption a {
-  background-color: #32358c;
+  background-color: #000;
   padding: 10px 35px;
   font-size: 14px;
   color: #fff;
@@ -513,7 +513,7 @@ body {
   height: 2px;
   top: 24px;
   left: 0;
-  background-color: #32358c;
+  background-color: #000;
   position: absolute;
   transform: scale(0);
   bottom: 0px;
@@ -533,14 +533,14 @@ body {
   height: 2px;
   top: 24px;
   left: 0;
-  background-color: #32358c;
+  background-color: #000;
   position: absolute;
   transform: scale(1);
   bottom: 0px;
   transform-origin: left;
 }
 a.line-one {
-  color: #32358c !important;
+  color: #000 !important;
 }
 
 .about {
@@ -554,7 +554,7 @@ a.line-one {
 }
 .about-text h4 {
   font-size: 14px;
-  color: #32358c;
+  color: #000;
 }
 .about-text h2 {
   font-size: 30px;
@@ -574,7 +574,7 @@ a.line-one {
 }
 
 .cssbuttons-io-button {
-  background: #32358c;
+  background: #000;
   color: white;
   font-family: inherit;
   padding: 0.35em;
@@ -606,7 +606,7 @@ a.line-one {
   height: 2.2em;
   width: 2.2em;
   border-radius: 0.7em;
-  box-shadow: 0.1em 0.1em 0.6em 0.2em #32358c;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #000;
   right: 0.3em;
   transition: all 0.3s;
 }
@@ -618,7 +618,7 @@ a.line-one {
 .cssbuttons-io-button .icon svg {
   width: 1.1em;
   transition: transform 0.3s;
-  color: #32358c;
+  color: #000;
 }
 
 .cssbuttons-io-button:hover .icon svg {
@@ -636,7 +636,7 @@ a.line-one {
 }
 .services-main h4 {
   font-size: 14px;
-  color: #32358c;
+  color: #000;
 }
 .services-main h2 {
   font-size: 32px;
@@ -683,7 +683,7 @@ a.line-one {
   color: #777;
 }
 .service-icon {
-  background-color: #32358c;
+  background-color: #000;
   border-radius: 0px 8px 0px 8px;
   position: absolute;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -692,12 +692,12 @@ a.line-one {
   padding: 23px;
 }
 .service-text a {
-  color: #32358c;
+  color: #000;
   font-size: 15px;
   font-weight: 600;
 }
 .service-text a:hover {
-  color: #32358c;
+  color: #000;
 }
 .service-img img {
   width: 100%;
@@ -794,7 +794,7 @@ footer {
 }
 .foot-box ul li i {
   margin-right: 3px;
-  color: #32358c;
+  color: #000;
 }
 .foot-box ul li {
   margin-bottom: 20px;
@@ -821,8 +821,8 @@ ul.list li i {
   cursor: pointer;
   display: flex;
   align-items: center;
-  border: 1px solid #32358c;
-  background-color: #32358c;
+  border: 1px solid #000;
+  background-color: #000;
   overflow: hidden;
 }
 
@@ -855,7 +855,7 @@ ul.list li i {
 }
 
 .button:hover {
-  background: #32358c;
+  background: #000;
 }
 
 .button:hover .button__text {
@@ -868,11 +868,11 @@ ul.list li i {
 }
 
 .button:active .button__icon {
-  background-color: #32358c;
+  background-color: #000;
 }
 
 .button:active {
-  border: 1px solid #32358c;
+  border: 1px solid #000;
 }
 
 
@@ -881,7 +881,7 @@ ul.list li i {
   width: 15%;
   height: 3px;
   top: 30px;
-  background-color: #32358c;
+  background-color: #000;
   position: absolute;
   left: 0px;
 }
@@ -1061,7 +1061,7 @@ ul.list li i {
   margin-top: 40px;
 }
 .table-blue {
-  background-color: #32358c;
+  background-color: #000;
   color: #fff;
 }
 table.table {
@@ -1098,7 +1098,7 @@ td.table-bold {
   overflow: hidden;
 }
 .vision-text {
-  background-color: #32358c;
+  background-color: #000;
   color: #f3f3f3;
   width: 200px;
   right: 40px;
@@ -1121,7 +1121,7 @@ td.table-bold {
   font-weight: 600;
 }
 .goal {
-  border-left: 5px solid #32358c;
+  border-left: 5px solid #000;
 }
 .goal p {
   color: #212529;
@@ -1171,7 +1171,7 @@ td.table-bold {
   font-size: 14px;
 }
 .person-detail ul li i {
-  color: #32358c;
+  color: #000;
 }
 .person-detail {
   border: 1px solid #e7e7e7;
@@ -1221,7 +1221,7 @@ textarea:focus {
 }
 
 .get-button button {
-  background-color: #32358c;
+  background-color: #000;
   padding: 14px 44px;
   border-radius: 4px;
   margin-top: 20px;
@@ -1278,11 +1278,11 @@ textarea:focus {
   margin-bottom: 12px;
 }
 .segment-head a {
-  color: #32358c;
+  color: #000;
   font-weight: 600;
 }
 .segment-head a:hover {
-  color: #32358c;
+  color: #000;
 }
 .segment-head p {
   text-align: justify;
@@ -1380,7 +1380,7 @@ table.project-table {
 }
 .table-heading {
   text-align: center;
-  background-color: #32358c;
+  background-color: #000;
 }
 .about-three {
   margin-top: 50px;
@@ -1390,7 +1390,7 @@ table.project-table {
   border-radius: 20px;
 }
 .thank-text a {
-  color: #32358c;
+  color: #000;
   font-weight: 600;
 }
 .thank-text a:hover {
