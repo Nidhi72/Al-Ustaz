@@ -1,0 +1,13 @@
+/*
+ Theme Name:   YourTheme Child
+ Theme URI:    http://yourwebsite.com/yourtheme-child
+ Description:  Child theme for Hello Elementor
+ Author:       Your Name
+ Template:     hello-elementor
+ Version:      1.0.0
+*/
+
+/* Import parent theme’s styles */
+@import url("../hello-elementor/style.css");
+
+/* Additional styles for the child theme can be added below */

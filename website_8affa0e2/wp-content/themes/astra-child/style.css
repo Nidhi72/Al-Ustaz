@@ -1,0 +1,10 @@
+/*
+ Theme Name:   YourTheme Child
+ Theme URI:    http://yourwebsite.com/yourtheme-child
+ Description:  Child theme for YourTheme
+ Author:       Your Name
+ Template:     astra
+ Version:      1.0.0
+*/
+
+@import url("../astra/style.css"); /* Import parent theme’s styles */

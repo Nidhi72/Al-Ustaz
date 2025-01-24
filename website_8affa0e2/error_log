@@ -1,0 +1,182 @@
+[17-Oct-2024 17:54:27 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[17-Oct-2024 17:54:27 UTC] Cron reschedule event error for hook: wpseo_indexable_index_batch, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"fifteen_minutes","args":[],"interval":900}
+[18-Oct-2024 11:32:12 UTC] Cron reschedule event error for hook: nfd_module_installer_plugin_install_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"thirty_seconds","args":[],"interval":30}
+[20-Nov-2024 21:47:31 UTC] PHP Fatal error:  Uncaught Error: Non-static method NewfoldLabs\WP\Module\Data\Helpers\Plugin::collect() cannot be called statically in /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-data/includes/Listeners/Plugin.php:145
+Stack trace:
+#0 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-data/includes/Listeners/Plugin.php(124): NewfoldLabs\WP\Module\Data\Listeners\Plugin->updated(Array)
+#1 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/class-wp-hook.php(324): NewfoldLabs\WP\Module\Data\Listeners\Plugin->installed_or_updated(Object(Plugin_Upgrader), Array)
+#2 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home3/wsarabia/public_html/website_8affa0e2/wp-admin/includes/class-wp-upgrader.php(984): do_action('upgrader_proces...', Object(Plugin_Upgrader), Array)
+#5 /home3/wsarabia/public_html/website_8affa0e2/wp-admin/includes/class-plugin-upgrader.php(224): WP_Upgrader->run(Array)
+#6 /home3/wsarabia/public_html/website_8affa0e2/wp-admin/includes/class-wp-automatic-updater.php(478): Plugin_Upgrader->upgrade('bluehost-wordpr...', Array)
+#7 /home3/wsarabia/public_html/website_8affa0e2/wp-admin/includes/class-wp-automatic-updater.php(676): WP_Automatic_Updater->update('plugin', Object(stdClass))
+#8 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/update.php(851): WP_Automatic_Updater->run()
+#9 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update('')
+#10 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#11 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/update.php(295): do_action('wp_maybe_auto_u...')
+#13 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/class-wp-hook.php(324): wp_version_check()
+#14 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#15 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#16 /home3/wsarabia/public_html/website_8affa0e2/wp-cron.php(191): do_action_ref_array('wp_version_chec...', Array)
+#17 {main}
+  thrown in /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-data/includes/Listeners/Plugin.php on line 145
+[15-Dec-2024 18:30:09 UTC] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, WP_Error given in /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-connection/src/class-plugin.php:88
+Stack trace:
+#0 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-connection/src/class-plugin.php(88): array_key_exists('jetpack', Object(WP_Error))
+#1 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-connection/src/class-manager.php(2184): Automattic\Jetpack\Connection\Plugin->is_only()
+#2 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-connection/src/class-manager.php(1822): Automattic\Jetpack\Connection\Manager->disconnect_site(true, false)
+#3 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/jetpack/class.jetpack.php(2848): Automattic\Jetpack\Connection\Manager->remove_connection(true)
+#4 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/jetpack/class.jetpack.php(2820): Jetpack::disconnect()
+#5 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/class-wp-hook.php(324): Jetpack::plugin_deactivation(false)
+#6 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home3/wsarabia/public_html/website_8affa0e2/wp-admin/includes/plugin.php(826): do_action('deactivate_jetp...', false)
+#9 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-installer/includes/Services/PluginInstaller.php(479): deactivate_plugins('jetpack/jetpack...')
+#10 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-installer/includes/Tasks/PluginDeactivationTask.php(87): NewfoldLabs\WP\Module\Installer\Services\PluginInstaller::deactivate('jetpack')
+#11 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-installer/includes/TaskManagers/PluginDeactivationTaskManager.php(69): NewfoldLabs\WP\Module\Installer\Tasks\PluginDeactivationTask->execute()
+#12 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/class-wp-hook.php(324): NewfoldLabs\WP\Module\Installer\TaskManagers\PluginDeactivationTaskManager->deactivate()
+#13 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#14 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#15 /home3/wsarabia/public_html/website_8affa0e2/wp-cron.php(191): do_action_ref_array('nfd_module_inst...', Array)
+#16 {main}
+  thrown in /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-connection/src/class-plugin.php on line 88
+[15-Dec-2024 18:49:21 UTC] Cron reschedule event error for hook: nfd_module_installer_plugin_install_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"thirty_seconds","args":[],"interval":30}
+[15-Dec-2024 19:39:44 UTC] Cron reschedule event error for hook: nfd_module_installer_plugin_install_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"thirty_seconds","args":[],"interval":30}
+[15-Dec-2024 19:40:15 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[15-Dec-2024 19:40:15 UTC] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, WP_Error given in /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-connection/src/class-plugin.php:88
+Stack trace:
+#0 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-connection/src/class-plugin.php(88): array_key_exists('jetpack', Object(WP_Error))
+#1 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-connection/src/class-manager.php(2184): Automattic\Jetpack\Connection\Plugin->is_only()
+#2 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-connection/src/class-manager.php(1822): Automattic\Jetpack\Connection\Manager->disconnect_site(true, false)
+#3 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/jetpack/class.jetpack.php(2848): Automattic\Jetpack\Connection\Manager->remove_connection(true)
+#4 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/jetpack/class.jetpack.php(2820): Jetpack::disconnect()
+#5 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/class-wp-hook.php(324): Jetpack::plugin_deactivation(false)
+#6 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home3/wsarabia/public_html/website_8affa0e2/wp-admin/includes/plugin.php(826): do_action('deactivate_jetp...', false)
+#9 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-installer/includes/Services/PluginInstaller.php(479): deactivate_plugins('jetpack/jetpack...')
+#10 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-installer/includes/Tasks/PluginDeactivationTask.php(87): NewfoldLabs\WP\Module\Installer\Services\PluginInstaller::deactivate('jetpack')
+#11 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-installer/includes/TaskManagers/PluginDeactivationTaskManager.php(69): NewfoldLabs\WP\Module\Installer\Tasks\PluginDeactivationTask->execute()
+#12 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/class-wp-hook.php(324): NewfoldLabs\WP\Module\Installer\TaskManagers\PluginDeactivationTaskManager->deactivate()
+#13 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#14 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#15 /home3/wsarabia/public_html/website_8affa0e2/wp-cron.php(191): do_action_ref_array('nfd_module_inst...', Array)
+#16 {main}
+  thrown in /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-connection/src/class-plugin.php on line 88
+[15-Dec-2024 19:43:00 UTC] Cron reschedule event error for hook: nfd_module_installer_plugin_install_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"thirty_seconds","args":[],"interval":30}
+[15-Dec-2024 19:43:17 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[15-Dec-2024 19:44:13 UTC] Cron reschedule event error for hook: nfd_module_installer_plugin_install_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"thirty_seconds","args":[],"interval":30}
+[15-Dec-2024 20:17:08 UTC] PHP Parse error:  syntax error, unexpected identifier "name", expecting ")" in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/twentytwentyfive/functions.php on line 78
+[15-Dec-2024 20:17:08 UTC] PHP Parse error:  syntax error, unexpected identifier "name", expecting ")" in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/twentytwentyfive/functions.php on line 78
+[15-Dec-2024 20:17:09 UTC] PHP Parse error:  syntax error, unexpected identifier "name", expecting ")" in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/twentytwentyfive/functions.php on line 78
+[15-Dec-2024 20:17:09 UTC] PHP Parse error:  syntax error, unexpected identifier "name", expecting ")" in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/twentytwentyfive/functions.php on line 78
+[15-Dec-2024 20:17:21 UTC] PHP Parse error:  syntax error, unexpected identifier "name", expecting ")" in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/twentytwentyfive/functions.php on line 78
+[15-Dec-2024 20:17:21 UTC] PHP Parse error:  syntax error, unexpected identifier "name", expecting ")" in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/twentytwentyfive/functions.php on line 78
+[15-Dec-2024 20:17:21 UTC] PHP Parse error:  syntax error, unexpected identifier "name", expecting ")" in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/twentytwentyfive/functions.php on line 78
+[15-Dec-2024 20:17:21 UTC] PHP Parse error:  syntax error, unexpected identifier "name", expecting ")" in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/twentytwentyfive/functions.php on line 78
+[15-Dec-2024 20:17:44 UTC] PHP Parse error:  syntax error, unexpected identifier "name", expecting ")" in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/twentytwentyfive/functions.php on line 78
+[15-Dec-2024 20:17:44 UTC] PHP Parse error:  syntax error, unexpected identifier "name", expecting ")" in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/twentytwentyfive/functions.php on line 78
+[15-Dec-2024 20:17:56 UTC] PHP Parse error:  syntax error, unexpected identifier "name", expecting ")" in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/twentytwentyfive/functions.php on line 78
+[15-Dec-2024 20:19:31 UTC] PHP Parse error:  syntax error, unexpected identifier "name", expecting ")" in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/twentytwentyfive/functions.php on line 78
+[15-Dec-2024 20:19:32 UTC] PHP Parse error:  syntax error, unexpected identifier "name", expecting ")" in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/twentytwentyfive/functions.php on line 78
+[15-Dec-2024 20:19:33 UTC] PHP Parse error:  syntax error, unexpected identifier "name", expecting ")" in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/twentytwentyfive/functions.php on line 78
+[15-Dec-2024 20:20:17 UTC] PHP Parse error:  syntax error, unexpected identifier "name", expecting ")" in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/twentytwentyfive/functions.php on line 78
+[15-Dec-2024 20:23:50 UTC] PHP Parse error:  syntax error, unexpected identifier "name", expecting ")" in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/twentytwentyfive/functions.php on line 78
+[15-Dec-2024 20:24:26 UTC] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, WP_Error given in /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-connection/src/class-plugin.php:88
+Stack trace:
+#0 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-connection/src/class-plugin.php(88): array_key_exists('jetpack', Object(WP_Error))
+#1 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-connection/src/class-manager.php(2184): Automattic\Jetpack\Connection\Plugin->is_only()
+#2 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-connection/src/class-manager.php(1822): Automattic\Jetpack\Connection\Manager->disconnect_site(true, false)
+#3 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/jetpack/class.jetpack.php(2848): Automattic\Jetpack\Connection\Manager->remove_connection(true)
+#4 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/jetpack/class.jetpack.php(2820): Jetpack::disconnect()
+#5 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/class-wp-hook.php(324): Jetpack::plugin_deactivation(false)
+#6 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home3/wsarabia/public_html/website_8affa0e2/wp-admin/includes/plugin.php(826): do_action('deactivate_jetp...', false)
+#9 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-installer/includes/Services/PluginInstaller.php(479): deactivate_plugins('jetpack/jetpack...')
+#10 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-installer/includes/Tasks/PluginDeactivationTask.php(87): NewfoldLabs\WP\Module\Installer\Services\PluginInstaller::deactivate('jetpack')
+#11 /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-installer/includes/TaskManagers/PluginDeactivationTaskManager.php(69): NewfoldLabs\WP\Module\Installer\Tasks\PluginDeactivationTask->execute()
+#12 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/class-wp-hook.php(324): NewfoldLabs\WP\Module\Installer\TaskManagers\PluginDeactivationTaskManager->deactivate()
+#13 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#14 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#15 /home3/wsarabia/public_html/website_8affa0e2/wp-cron.php(191): do_action_ref_array('nfd_module_inst...', Array)
+#16 {main}
+  thrown in /home3/wsarabia/public_html/website_8affa0e2/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-connection/src/class-plugin.php on line 88
+[15-Dec-2024 20:24:37 UTC] PHP Parse error:  syntax error, unexpected identifier "name", expecting ")" in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/twentytwentyfive_old/functions.php on line 78
+[15-Dec-2024 20:24:40 UTC] PHP Parse error:  syntax error, unexpected identifier "name", expecting ")" in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/twentytwentyfive_old/functions.php on line 78
+[15-Dec-2024 20:27:51 UTC] Cron reschedule event error for hook: nfd_module_installer_plugin_install_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"thirty_seconds","args":[],"interval":30}
+[15-Dec-2024 20:28:29 UTC] PHP Parse error:  syntax error, unexpected identifier "name", expecting ")" in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/twentytwentyfive/functions.php on line 78
+[15-Dec-2024 20:31:38 UTC] PHP Parse error:  syntax error, unexpected identifier "name", expecting ")" in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/twentytwentyfive1/functions.php on line 78
+[15-Dec-2024 20:31:49 UTC] PHP Parse error:  syntax error, unexpected identifier "name", expecting ")" in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/twentytwentyfive/functions.php on line 78
+[16-Dec-2024 17:34:27 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[16-Dec-2024 17:34:35 UTC] Cron reschedule event error for hook: nfd_module_installer_plugin_install_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"thirty_seconds","args":[],"interval":30}
+[16-Dec-2024 18:54:22 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/astra-child/header.php on line 15
+[16-Dec-2024 19:34:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_content_top() in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/hello-elementor-child/header.php:126
+Stack trace:
+#0 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/template.php(810): require_once()
+#1 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/template.php(745): load_template('/home3/wsarabia...', true, Array)
+#2 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/hello-elementor/index.php(15): get_header()
+#4 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/template-loader.php(106): include('/home3/wsarabia...')
+#5 /home3/wsarabia/public_html/website_8affa0e2/wp-blog-header.php(19): require_once('/home3/wsarabia...')
+#6 /home3/wsarabia/public_html/website_8affa0e2/index.php(17): require('/home3/wsarabia...')
+#7 {main}
+  thrown in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/hello-elementor-child/header.php on line 126
+[16-Dec-2024 19:34:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_content_top() in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/hello-elementor-child/header.php:126
+Stack trace:
+#0 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/template.php(810): require_once()
+#1 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/template.php(745): load_template('/home3/wsarabia...', true, Array)
+#2 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/hello-elementor/index.php(15): get_header()
+#4 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/template-loader.php(106): include('/home3/wsarabia...')
+#5 /home3/wsarabia/public_html/website_8affa0e2/wp-blog-header.php(19): require_once('/home3/wsarabia...')
+#6 /home3/wsarabia/public_html/website_8affa0e2/index.php(17): require('/home3/wsarabia...')
+#7 {main}
+  thrown in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/hello-elementor-child/header.php on line 126
+[16-Dec-2024 19:35:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_content_top() in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/hello-elementor-child/header.php:126
+Stack trace:
+#0 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/template.php(810): require_once()
+#1 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/template.php(745): load_template('/home3/wsarabia...', true, Array)
+#2 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/hello-elementor/index.php(15): get_header()
+#4 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/template-loader.php(106): include('/home3/wsarabia...')
+#5 /home3/wsarabia/public_html/website_8affa0e2/wp-blog-header.php(19): require_once('/home3/wsarabia...')
+#6 /home3/wsarabia/public_html/website_8affa0e2/index.php(17): require('/home3/wsarabia...')
+#7 {main}
+  thrown in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/hello-elementor-child/header.php on line 126
+[16-Dec-2024 19:35:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_content_top() in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/hello-elementor-child/header.php:126
+Stack trace:
+#0 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/template.php(810): require_once()
+#1 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/template.php(745): load_template('/home3/wsarabia...', true, Array)
+#2 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/hello-elementor/index.php(15): get_header()
+#4 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/template-loader.php(106): include('/home3/wsarabia...')
+#5 /home3/wsarabia/public_html/website_8affa0e2/wp-blog-header.php(19): require_once('/home3/wsarabia...')
+#6 /home3/wsarabia/public_html/website_8affa0e2/index.php(17): require('/home3/wsarabia...')
+#7 {main}
+  thrown in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/hello-elementor-child/header.php on line 126
+[16-Dec-2024 19:35:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_content_top() in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/hello-elementor-child/header.php:126
+Stack trace:
+#0 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/template.php(810): require_once()
+#1 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/template.php(745): load_template('/home3/wsarabia...', true, Array)
+#2 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/hello-elementor/index.php(15): get_header()
+#4 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/template-loader.php(106): include('/home3/wsarabia...')
+#5 /home3/wsarabia/public_html/website_8affa0e2/wp-blog-header.php(19): require_once('/home3/wsarabia...')
+#6 /home3/wsarabia/public_html/website_8affa0e2/index.php(17): require('/home3/wsarabia...')
+#7 {main}
+  thrown in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/hello-elementor-child/header.php on line 126
+[16-Dec-2024 19:35:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_content_top() in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/hello-elementor-child/header.php:126
+Stack trace:
+#0 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/template.php(810): require_once()
+#1 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/template.php(745): load_template('/home3/wsarabia...', true, Array)
+#2 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/hello-elementor/index.php(15): get_header()
+#4 /home3/wsarabia/public_html/website_8affa0e2/wp-includes/template-loader.php(106): include('/home3/wsarabia...')
+#5 /home3/wsarabia/public_html/website_8affa0e2/wp-blog-header.php(19): require_once('/home3/wsarabia...')
+#6 /home3/wsarabia/public_html/website_8affa0e2/index.php(17): require('/home3/wsarabia...')
+#7 {main}
+  thrown in /home3/wsarabia/public_html/website_8affa0e2/wp-content/themes/hello-elementor-child/header.php on line 126
+[18-Dec-2024 20:56:06 UTC] WordPress database error Deadlock found when trying to get lock; try restarting transaction for query DELETE FROM `xfL_options` WHERE `option_name` = '_site_transient_wp_theme_files_patterns-2d2d583a7b5d51189e64f99284657353' made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, _register_theme_block_patterns, WP_Theme->get_block_patterns, WP_Theme->get_pattern_cache, get_site_transient, delete_site_option, delete_network_option, delete_option
